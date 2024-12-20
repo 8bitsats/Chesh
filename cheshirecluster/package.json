@@ -1,0 +1,10 @@
+{
+  "name": "cheshirecluster",
+  "version": "1.0.0",
+  "description": "Exo Labs Cluster Integration for Cheshire Terminal",
+  "main": "exo-service.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-fetch test-connection.js"
+  }
+}

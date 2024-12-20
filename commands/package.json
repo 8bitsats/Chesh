@@ -1,0 +1,14 @@
+{
+  "name": "eliza-commands",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@ai16z/eliza": "workspace:*",
+    "@ai16z/adapter-sqlite": "workspace:*",
+    "@ai16z/client-twitter": "workspace:*",
+    "better-sqlite3": "^8.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0"
+  }
+}

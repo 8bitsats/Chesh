@@ -1,0 +1,53 @@
+# Dependencies
+node_modules
+/out
+dist/
+
+# Environment and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+service-account.json
+**/service-account*.json
+*.keypair.json
+program-keypair.json
+test-ledger/
+
+# Caches and logs
+.DS_Store
+concatenated-output.ts
+embedding-cache.json
+cookies.json
+db.sqlite
+*.sqlite
+searches/
+tweets/
+logs/
+test-report.json
+content_cache/
+test_data/
+tokencache/
+tweetcache/
+twitter_cookies.json
+timeline_cache.json
+cache/
+packages/core/src/providers/cache/
+
+# Model and media files
+*.gguf
+*.onnx
+*.wav
+*.mp3
+
+# Generated content
+characters/
+# Service accounts and keys
+service-account.json
+*.keypair.json
+program-keypair.json
+test-ledger/
+
+# Environment files
+**/.env
+**/.env.*
